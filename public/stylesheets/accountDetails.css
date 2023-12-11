@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Set minimum height to 100% of the viewport height */
+}
+
+#passwordChangeForm label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 1em;
+}
+ 
+#passwordChangeForm input, 
+#passwordChangeForm button {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 85%;
+    height: 80vh; 
+    margin: 20px auto;
+}
+
+.accountDetails {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+.accountDetails h1 {
+    font-size: 2em;
+    text-align: center;
+    border-bottom: solid 1px black;
+}
+
+.accountDetailsContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accountDetailsContentLeft {
+    width: fit-content;
+}
+
+.accountDetailsContentLeft h2 {
+    color: #333;
+    font-size: 1.5em;
+    white-space: normal;
+    margin-bottom: 10px;
+}
+
+.accountDetailsContentLeft p {
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: fit-content;
+}
+
+.modal-body { /*makes the text and buttons in the modal appear side by side*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close {
+    float: right;
+}

@@ -1,0 +1,61 @@
+.rounded {
+    border-radius: 50%;
+}
+
+.profile-initials {
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #41b045; 
+  font-size: 2em; 
+  font-weight: bold; 
+  color: #333;
+  margin-bottom: 10px; 
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+.account-page, .account-buttons, .help-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .profile-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  
+  .account-heading, .help-heading {
+    text-align: center;
+  }
+
+  .user-name {
+    font-size: 2em; 
+    font-weight: bold; 
+    color: #333; 
+    margin-top: 10px; 
+  }

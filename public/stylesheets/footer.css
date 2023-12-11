@@ -1,0 +1,30 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    background-color: #eee;
+    padding: 20px 0;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    border-bottom: none !important;
+    /*leave*/
+}
+
+nav a {
+    display: inline-block;
+    min-width: fit-content;
+    padding: 0.175rem;
+    border-radius: 0.2rem;
+    border: solid 1px #aaa;
+    text-align: center;
+    text-decoration: none;
+    color: #555;
+}
